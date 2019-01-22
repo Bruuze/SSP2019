@@ -1,0 +1,11 @@
+// console.log(234 == "234");
+//console.log(234 === "234");
+//console.log(234 === 234);
+// console.log("cat".toUpperCase() == "CAT");
+//console.log(isNaN(parseInt("cat")));
+// var i = "This is a test".indexOf("is");
+// console.log(i);
+var s ="this is a test string".substr(19,3);
+var a ="this is a test string".slice(19,22);
+console.log(a);
+console.log(s);
