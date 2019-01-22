@@ -1,28 +1,8 @@
-function add(a,b) {
-    return a + b;
-}
+var add = (a,b) => {return a + b};
+var multiply = (a,b) => {return a * b};
+var subtract = (a,b) => {return a - b};
+var divide = (a,b) => {return a / b};
 
-function multiply(a,b) {
-    return a * b;
-}
-
-function subtract(a,b) {
-    
-    return a - b;
-    
-}
-
-function divide(a,b) {
-    return a/b;
-}
-
-// function calc(op, a, b) {
-//     return op;
-// }
-
-// var calc = (op) => console.log(op);
-
-// calc(add(3,5));
 
 function fullCalc(op,a,b) {
     if (op == "+"){
